@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Ruby version "3.1.3"
 
-* Ruby version
+The purpose of this project is to learn the basics of ruby on rails, once this project is complete I will be building a seperate project related to tracking runs with social media like features.
 
-* System dependencies
+Following a tutorial by [Free code camp](https://www.youtube.com/watch?v=fmyvWz5TUWg&t=1599s)
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
