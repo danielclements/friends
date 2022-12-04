@@ -17,7 +17,7 @@
       <% @friends.each do |friend| %>
         <tr>
           <td>
-            <%= link_to friend.first_name %>
+            <%= link_to friend.first_name, friend  %>
           </td>
           <td>
             <%= friend.last_name %>
@@ -32,7 +32,9 @@
             <%= friend.twitter %>
           </td>
           <td>
-            <%= link_to 'Delete', friend, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-danger btn-sm" %></td>
+            <%= link_to 'Delete', friend, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-outline-danger btn-sm" %> |
+            
+          </td>
         </tr>
       <% end %>
     </tbody>
